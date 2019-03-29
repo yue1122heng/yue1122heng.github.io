@@ -6,7 +6,7 @@
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="邱月恒的博客">
-    <meta name="keyword" content="腾讯">
+    <meta name="keyword" content="qyh">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>
@@ -114,6 +114,8 @@
     
     <a href="#centOS" title="centOS" rel="3">centOS</a>
     
+    <a href="#redis" title="redis" rel="1">redis</a>
+    
     <a href="#Node.js" title="Node.js" rel="3">Node.js</a>
     
     <a href="#javascript" title="javascript" rel="6">javascript</a>
@@ -122,13 +124,17 @@
     
     <a href="#ssh" title="ssh" rel="1">ssh</a>
     
-    <a href="#组件化" title="组件化" rel="1">组件化</a>
-    
     <a href="#Rx.js" title="Rx.js" rel="1">Rx.js</a>
     
-    <a href="#PWA" title="PWA" rel="1">PWA</a>
+    <a href="#组件化" title="组件化" rel="1">组件化</a>
+    
+    <a href="#ShadowSocks" title="ShadowSocks" rel="1">ShadowSocks</a>
+    
+    <a href="#性能优化" title="性能优化" rel="2">性能优化</a>
     
     <a href="#TCP" title="TCP" rel="1">TCP</a>
+    
+    <a href="#PWA" title="PWA" rel="1">PWA</a>
     
     <a href="#nginx" title="nginx" rel="1">nginx</a>
     
@@ -139,12 +145,6 @@
     <a href="#WebAssembly" title="WebAssembly" rel="1">WebAssembly</a>
     
     <a href="#MVVM" title="MVVM" rel="1">MVVM</a>
-    
-    <a href="#redis" title="redis" rel="1">redis</a>
-    
-    <a href="#ShadowSocks" title="ShadowSocks" rel="1">ShadowSocks</a>
-    
-    <a href="#性能优化" title="性能优化" rel="2">性能优化</a>
     
     <a href="#前端监控" title="前端监控" rel="1">前端监控</a>
     
@@ -159,6 +159,20 @@
                 <span class="fa fa-tag listing-seperator" id="centOS">
                     <span class="tag-text">centOS</span>
                 </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2016/10/04/CentOS7下安装和配置redis/">
+            <h2 class="post-title">
+                CentOS7下安装和配置redis
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
     
     <!-- <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -187,6 +201,13 @@
         </a>
         <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
     </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="redis">
+                    <span class="tag-text">redis</span>
+                </span>
     
     <!-- <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -291,9 +312,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2018/05/29/十条编写优化的JavaScript代码的建议/">
+        <a href="/2018/10/21/使用 Node.js 打造多用户实时监控系统/">
             <h2 class="post-title">
-                十条编写优化的 JavaScript 代码的建议
+                使用 Node.js 打造多用户实时监控系统
             </h2>
             
         </a>
@@ -305,9 +326,9 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2018/10/21/使用 Node.js 打造多用户实时监控系统/">
+        <a href="/2018/05/29/十条编写优化的JavaScript代码的建议/">
             <h2 class="post-title">
-                使用 Node.js 打造多用户实时监控系统
+                十条编写优化的 JavaScript 代码的建议
             </h2>
             
         </a>
@@ -387,27 +408,6 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="组件化">
-                    <span class="tag-text">组件化</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2018/11/10/多组件单页列表应用的代码组织实践/">
-            <h2 class="post-title">
-                多组件单页列表应用的代码组织实践
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
                 <span class="fa fa-tag listing-seperator" id="Rx.js">
                     <span class="tag-text">Rx.js</span>
                 </span>
@@ -429,8 +429,8 @@
 </div>
 
 <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="PWA">
-                    <span class="tag-text">PWA</span>
+                <span class="fa fa-tag listing-seperator" id="组件化">
+                    <span class="tag-text">组件化</span>
                 </span>
     
     <!-- <li class="listing-item">
@@ -438,9 +438,65 @@
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li> -->
     <div class="post-preview">
-        <a href="/2018/02/11/PWA实践-serviceWorker生命周期、请求代理与通信/">
+        <a href="/2018/11/10/多组件单页列表应用的代码组织实践/">
             <h2 class="post-title">
-                [PWA实践]serviceWorker生命周期、请求代理与通信
+                多组件单页列表应用的代码组织实践
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="ShadowSocks">
+                    <span class="tag-text">ShadowSocks</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2016/08/08/腾讯云北美服务器搭建ShadowSocks代理/">
+            <h2 class="post-title">
+                腾讯云北美服务器搭建ShadowSocks代理
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="性能优化">
+                    <span class="tag-text">性能优化</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2017/08/31/深入浏览器web渲染与优化-续/">
+            <h2 class="post-title">
+                深入浏览器web渲染与优化-续
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2017/08/27/深入浏览器web渲染与优化/">
+            <h2 class="post-title">
+                深入浏览器web渲染与优化
             </h2>
             
         </a>
@@ -462,6 +518,27 @@
         <a href="/2018/11/25/Node-js的TCP链接管理/">
             <h2 class="post-title">
                 Node.js 的 TCP 链接管理
+            </h2>
+            
+        </a>
+        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    </div>
+    
+</div>
+
+<div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="PWA">
+                    <span class="tag-text">PWA</span>
+                </span>
+    
+    <!-- <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li> -->
+    <div class="post-preview">
+        <a href="/2018/02/11/PWA实践-serviceWorker生命周期、请求代理与通信/">
+            <h2 class="post-title">
+                [PWA实践]serviceWorker生命周期、请求代理与通信
             </h2>
             
         </a>
@@ -567,83 +644,6 @@
         <a href="/2018/04/09/构建利用Proxy和Reflect实现双向数据绑定的微框架/">
             <h2 class="post-title">
                 构建利用Proxy和Reflect实现双向数据绑定的微框架
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="redis">
-                    <span class="tag-text">redis</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2016/10/04/CentOS7下安装和配置redis/">
-            <h2 class="post-title">
-                CentOS7下安装和配置redis
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="ShadowSocks">
-                    <span class="tag-text">ShadowSocks</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2016/08/08/腾讯云北美服务器搭建ShadowSocks代理/">
-            <h2 class="post-title">
-                腾讯云北美服务器搭建ShadowSocks代理
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-</div>
-
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="性能优化">
-                    <span class="tag-text">性能优化</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2017/08/31/深入浏览器web渲染与优化-续/">
-            <h2 class="post-title">
-                深入浏览器web渲染与优化-续
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-    </div>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2017/08/27/深入浏览器web渲染与优化/">
-            <h2 class="post-title">
-                深入浏览器web渲染与优化
             </h2>
             
         </a>
